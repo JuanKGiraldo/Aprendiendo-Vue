@@ -1,0 +1,21 @@
+.container__aside {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  .aside__navbar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 0.3rem;
+    .navbar {
+      text-decoration: none;
+      color: black;
+      font-size: 1rem;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      box-shadow: 0px 0px 2px 2px darkolivegreen;
+    }
+  }
+}
