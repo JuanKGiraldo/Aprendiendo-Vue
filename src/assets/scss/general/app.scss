@@ -11,6 +11,7 @@ body {
   box-shadow: 0px 0px 0px 2px gray;
   border-radius: 2rem;
   padding: 1rem;
+  position: relative;
   display: grid;
   grid-template-areas:
     "header"
@@ -23,11 +24,16 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     flex-grow: 1;
-    width: 90%;
-    margin: 0 auto;
+    width: 80%;
+    top: 2rem;
+    left: 50%;
+    right: 50%;
     border-radius: 2rem;
     background: darkolivegreen;
     padding: 1rem;
+    position: fixed;
+    z-index: 1;
+    transform: translate(-50%, -50%);
   }
   &__section {
     grid-area: "section";
