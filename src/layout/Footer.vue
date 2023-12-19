@@ -1,3 +1,6 @@
-<template><h2>footer</h2></template>
+<template>
+  <h2>Aprendiendo VUE</h2>
+  <h2>&copy;Juan Camilo Giraldo</h2>
+</template>
 
 <script setup></script>
